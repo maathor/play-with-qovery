@@ -1,8 +1,12 @@
 application:
   name: play-with-qovery
-  project: vote
+  project: play-with-qovery
   cloud_region: aws/eu-west-3
   publicly_accessible: true
+databases:
+- type: mysql
+  version: "8.0"
+  name: my-mysql-8628210
 routers:
 - name: main
   routes:
